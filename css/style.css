@@ -1,0 +1,123 @@
+*{
+	margin:0px;
+	padding: 0px;
+	font-family: 'Poppins', sans-serif;
+}
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+/* <------ Header ------>*/
+.navbar{
+	background-color: #101820FF! important;
+}
+.navbar .navbar-brand{
+	color:#F2AA4CFF;
+	font-weight: bold;
+	font-size: 25px;
+}
+
+.navbar .navbar-nav li a{
+	font-size:14px;
+	font-weight:bold;
+	margin-left:30px;
+	color:white! important;
+}
+
+.navbar .navbar-nav li a:Hover{
+	color:#F2AA4CFF! important;
+	text-decoration:underline;
+	
+}
+.navbar-toggler{
+    width: 47px;
+    height: 34px;
+    background-color: #F2AA4CFF;
+    border:none;
+}
+.navbar-toggler .line{
+    width: 100%;
+    float: left;
+    height: 2px;
+    background-color: #fff;
+    margin-bottom: 5px;
+}
+
+/* <------ body ------>*/
+
+.name{
+	color: #101820FF;
+}
+
+
+.home{
+	color:white;
+	margin:0px;
+	padding:0px;
+
+}
+.home-background{
+	height:400px;
+  	background-color: #fff;
+  	background-image: linear-gradient(#F2AA4CFF,  #101820FF);
+
+}
+.home-content-title{
+	font-weight: bold;
+	font-size: 9vh;
+	text-align:center;
+	padding-top:35px;
+
+}
+.home-content-sub{
+	font-weight: bold;
+	font-size: 9vh;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	
+
+}
+
+
+.about{
+	margin-top:20px;
+	margin-bottom:20px;
+}
+.about-img{
+	padding-top:50px;
+	border: 3px solid #101820FF;
+	border-radius:50%;
+	height: 350px;
+	
+}
+.about-title{
+	padding-top:30px;
+	color: #F2AA4CFF;
+	text-decoration: underline;
+}
+.about-paragrap{
+	color: #101820FF;
+	padding-bottom: 20px;
+}
+
+.skill{
+	margin:0px;
+	padding:0px;
+}
+.skill-background{
+	padding:20px;
+  	background-color: #101820FF;
+}
+.skill-content-title{
+	margin:10px;
+	text-align: center;
+	color:#F2AA4CFF;
+	text-decoration: underline;
+}
+.skill-logo{
+	padding :10px;
+	height:100px;
+}
