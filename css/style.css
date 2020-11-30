@@ -122,12 +122,6 @@
 	height:100px;
 }
 
-@media screen and (max-width:  996px) {
-	.navbar .navbar-nav li a{
-		text-align: center;
-	}
-
-}
 @media screen and (max-width: 759px) {
   .home-content-title{
   	font-size: 10vw;
