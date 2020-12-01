@@ -146,6 +146,7 @@
 	text-align: center;
 }
 
+
 .project{
 	max-width:1110px;
 	margin-top:20px;
@@ -181,6 +182,53 @@
 }
 
 
+.contact{
+
+	margin-top:20px;
+	padding:0px;
+	text-align: center;
+	
+}
+.contact-background{
+	padding:30px;
+  	background-color: #101820FF;
+}
+.contact-intro{
+	color: #F2AA4CFF;
+	text-decoration: underline;
+	padding-bottom: 20px;
+	text-align: center;
+}
+.contact-icon{
+	color: #F2AA4CFF;
+	font-size: 30px;
+	margin-top:10px;
+
+
+}
+.contact-text{
+	color:#fff;
+	font-size:15px;
+}
+.contact-text:hover{
+	color:#F2AA4CFF;
+}
+
+.footer {
+  width: 100%;
+  height:50px;
+  background-color:#091017;
+  color:#f4b767;
+  font-size:13px;
+  margin: auto;
+  display:flex;
+  align-items: center;
+  justify-content:center;
+
+}
+
+
+
 
 #goTop-btn {
   display: none; /* Hidden by default */
@@ -197,6 +245,7 @@
   border-radius:20%; /* Rounded corners */
   font-size: 20px; /* Increase font size */
 }
+
 
 #goTop-btn :hover {
   background-color: #555; /* Add a dark-grey background on hover */
@@ -217,6 +266,12 @@
 		width:80%;
 		height:80%;
 	}
+
+	.contact-text{
+	color:#fff;
+	font-size:11px;
+}
+
 
 }
 
